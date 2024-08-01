@@ -1,0 +1,42 @@
+.music-player {
+    max-width: 100%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #191d22;
+    border-radius: 10px;
+    text-align: center;
+  }
+  .music-player h2{
+    text-align: left;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  .player-controls {
+    margin-top: 20px;
+  }
+  
+  .player-controls button {
+    display: inline-block;
+    background-color: #7782f7;
+    width: 10px; /* 调整按钮大小 */
+    height: auto;
+    border-radius:100px; /* 圆形按钮 */
+    cursor: pointer;
+    font-size: 10px;
+  }
+  
+  .player-controls button:hover {
+    background-color: #5c69f7;
+  }
+  
+  .player-controls input[type="range"] {
+    display: inline-block;
+    width: 90%;
+    margin-top: 10px;
+  }
+  
+  #songTitle {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
